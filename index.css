@@ -11,13 +11,29 @@ header {
 }
 
 main {
-  background-color: #92C9D5;
+  background-color: #9392d5;
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
-  background-color: #DAEEEF;
+  background-color: #eaefda;
   height: 100%;
   width: 100%;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  background-color: rgb(153, 165, 42);
 }
